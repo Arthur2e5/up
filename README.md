@@ -7,8 +7,9 @@ A bash script for moving up directories.
 How to use
 ----------
 
-Place this file somewhere in your PATH where bash will find it as a command, and make it executable (`chmod a+x up`).
-Or, put an alias for it in your .bashrc. Either method should work.
+Create an alias in your .bashrc file:
+
+    up = ". /[absolute path to up script]/up"
 
 Then, try opening a new bash terminal, and type the following:
 
