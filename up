@@ -1,0 +1,8 @@
+if [ -z "$1" ]; then
+    cd ..
+else
+    for i in `seq 1 $1`;
+    do
+        cd ..
+    done
+fi
