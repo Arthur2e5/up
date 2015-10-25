@@ -9,7 +9,7 @@ How to use
 
 Create an alias in your .bashrc file:
 
-    up = ". /[absolute path to up script]/up"
+    alias up='. /[path to up script]/up'
 
 Then, try opening a new bash terminal, and type the following:
 
